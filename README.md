@@ -2,7 +2,7 @@
 
 **PrivacyShield** is a Chrome extension that detects and masks personal data before it reaches AI chatbots like ChatGPT and Claude. Your real data never leaves your browser.
 
-🔗 **[Install from Chrome Web Store](#)** · 🌐 **[Website](https://www.piiblock.com)**
+🔗 **[Install from Chrome Web Store](https://chromewebstore.google.com/detail/privacyshield/nklghhkmhkmckonncilnaohlihfacoee)** · 🌐 **[Website](https://www.piiblock.com)**
 
 ---
 
