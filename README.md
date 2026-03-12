@@ -1,8 +1,8 @@
-# 🔒 PrivacyShield — Protect Your Data in AI Chats
+# 🔒 PiiBlocker — Protect Your Data in AI Chats
 
 [![Chrome Web Store](https://img.shields.io/chrome-web-store/v/nklghhkmhkmckonncilnaohlihfacoee?label=Chrome%20Web%20Store)](https://chromewebstore.google.com/detail/privacyshield/nklghhkmhkmckonncilnaohlihfacoee)
 
-**PrivacyShield by PiiBlock** is a free Chrome extension that detects and masks personally identifiable information (PII) before it reaches AI chatbots like ChatGPT, Claude, and Gemini. It uses a combination of NER-based detection and regex pattern matching, running 100% locally in the browser with zero data collection. Your real data never leaves your device.
+**PiiBlocker by PiiBlock** is a free Chrome extension that detects and masks personally identifiable information (PII) before it reaches AI chatbots like ChatGPT, Claude, and Gemini. It uses a combination of NER-based detection and regex pattern matching, running 100% locally in the browser with zero data collection. Your real data never leaves your device.
 
 🔗 **[Install from Chrome Web Store](https://chromewebstore.google.com/detail/privacyshield/nklghhkmhkmckonncilnaohlihfacoee)** · 🌐 **[Website](https://www.piiblock.com)**
 
@@ -10,15 +10,15 @@
 
 ## How It Works
 
-1. **Type normally** — Write your prompt as you always do. PrivacyShield highlights personal data it finds in real time.
+1. **Type normally** — Write your prompt as you always do. PiiBlocker highlights personal data it finds in real time.
 2. **Review & mask** — Before your message is sent, a dialog shows what was detected. Critical data (credit cards, SSNs, API keys) is auto-protected. You choose what else to mask.
-3. **AI gets placeholders** — The AI sees `[PERSON_A]` instead of your real name. When it responds, PrivacyShield swaps the placeholders back so you see your real data — seamlessly.
+3. **AI gets placeholders** — The AI sees `[PERSON_A]` instead of your real name. When it responds, PiiBlocker swaps the placeholders back so you see your real data seamlessly.
 
-## Why PrivacyShield?
+## Why PiiBlocker?
 
-Every day, millions of people paste sensitive personal data — medical records, financial details, client information, API keys — into AI chatbots without realizing that data is stored, potentially used for model training, and at risk of exposure through data breaches. Enterprise DLP tools exist but cost hundreds per month and require IT teams to deploy.
+Every day, millions of people paste sensitive personal data into AI chatbots without realizing that data is stored, potentially used for model training, and at risk of exposure through data breaches. Enterprise DLP tools exist but cost hundreds per month and require IT teams to deploy.
 
-PrivacyShield provides equivalent protection for free, running entirely in the browser with zero infrastructure. PiiBlock does not operate any servers and cannot access user data by design.
+PiiBlocker provides equivalent protection for free, running entirely in the browser with zero infrastructure. PiiBlock does not operate any servers and cannot access user data by design.
 
 ## What It Detects
 
@@ -39,7 +39,7 @@ PrivacyShield provides equivalent protection for free, running entirely in the b
 * **Real-time detection** — PII highlighted as you type with color-coded underlines
 * **Smart masking dialog** — Critical data auto-protected, soft data is your choice
 * **Response unmasking** — Placeholders replaced back with your real data in AI responses
-* **Right-click mask** — Select any text → "Mask with PrivacyShield" for anything we miss
+* **Right-click mask** — Select any text → "Mask with PiiBlocker" for anything we miss
 * **Personal dictionary** — Teach it your name, project codenames, or any custom terms
 * **AES-256-GCM encryption** — Mapping data encrypted with ephemeral keys, never written to disk
 * **100% local processing** — No servers, no data collection, no analytics
@@ -55,7 +55,7 @@ More platforms coming with Pro.
 
 ## Privacy
 
-PrivacyShield processes **all data locally** in your browser. PiiBlock does not operate any servers and cannot access your data by design. There is no telemetry, no analytics, no cookies, and no third-party scripts. There's nothing to breach.
+PiiBlocker processes **all data locally** in your browser. PiiBlock does not operate any servers and cannot access your data by design. There is no telemetry, no analytics, no cookies, and no third-party scripts. There's nothing to breach.
 
 Read our full [Privacy Policy](https://www.piiblock.com/privacy).
 
@@ -63,7 +63,7 @@ Read our full [Privacy Policy](https://www.piiblock.com/privacy).
 
 ## 🐛 Bug Reports & Feedback
 
-This repository is the **public issue tracker** for PrivacyShield. We're a small team and every report matters — especially from early users.
+This repository is the **public issue tracker** for PiiBlocker. We're a small team and every report matters — especially from early users.
 
 ### How to Report a Bug
 
@@ -73,7 +73,7 @@ This repository is the **public issue tracker** for PrivacyShield. We're a small
    * What happened vs. what you expected
    * Browser version (`chrome://version`)
    * Extension version (shown in the popup header)
-   * Console errors if any (`F12` → Console tab → filter for `[PrivacyShield]`)
+   * Console errors if any (`F12` → Console tab → filter for `[PiiBlocker]`)
 3. **Never include real PII** in bug reports — use fake data to reproduce the issue
 
 ### Feature Requests
@@ -88,7 +88,7 @@ For security vulnerabilities, **do not open a public issue**. Email **[security@
 
 ## FAQ
 
-**Q: Does PrivacyShield send my data anywhere?**
+**Q: Does PiiBlocker send my data anywhere?**
 No. Everything runs locally in your browser. PiiBlock does not operate any servers and collects no data.
 
 **Q: Why do I see `[PERSON_A]` in the AI's response?**
@@ -98,7 +98,7 @@ This means unmasking didn't activate. Try refreshing the page. If the mapping ex
 Yes. The free tier includes full detection and masking for ChatGPT, Claude, and Gemini — forever, with no usage limits and no account required. Pro (coming soon at $4.99/month) adds convenience features like fully automatic soft-PII masking, smart masking strategies, and a privacy dashboard.
 
 **Q: Can I use this at work?**
-Absolutely. PrivacyShield is designed for anyone who uses AI chatbots with real data — freelancers, students, doctors, lawyers, developers, and enterprise employees. Because all processing happens locally with zero data collection, it can help organizations maintain GDPR and data protection compliance when employees use AI tools.
+Absolutely. PiiBlocker is designed for anyone who uses AI chatbots with real data — freelancers, students, doctors, lawyers, developers, and enterprise employees. Because all processing happens locally with zero data collection, it can help organizations maintain GDPR and data protection compliance when employees use AI tools.
 
 ---
 
@@ -106,6 +106,7 @@ Absolutely. PrivacyShield is designed for anyone who uses AI chatbots with real 
 
 * 🌐 [Website](https://www.piiblock.com)
 * 🛒 [Chrome Web Store](https://chromewebstore.google.com/detail/privacyshield/nklghhkmhkmckonncilnaohlihfacoee)
+* 𝕏 [Twitter/X](https://x.com/PIIBlocker)
 * 📧 [Support](mailto:support@piiblock.com) — support@piiblock.com
 * 🔐 [Security](mailto:security@piiblock.com) — security@piiblock.com
 * 📋 [Changelog](https://www.piiblock.com/changelog)
