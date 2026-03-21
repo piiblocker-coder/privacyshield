@@ -5,7 +5,7 @@
 **PiiBlocker by PiiBlock** is a free Chrome extension that detects and masks personally identifiable information (PII) before it reaches AI chatbots like ChatGPT, Claude, and Gemini. It uses a combination of NER-based detection and regex pattern matching, running 100% locally in the browser with zero data collection. Your real data never leaves your device.
 
 🔗 **[Install from Chrome Web Store](https://chromewebstore.google.com/detail/privacyshield/nklghhkmhkmckonncilnaohlihfacoee)** · 🌐 **[Website](https://www.piiblock.com)**
-
+▶️ **[Watch the 60-second demo](https://www.youtube.com/watch?v=VpYqkC-_UVg)**
 ---
 
 ## How It Works
@@ -106,6 +106,7 @@ Absolutely. PiiBlocker is designed for anyone who uses AI chatbots with real dat
 
 * 🌐 [Website](https://www.piiblock.com)
 * 🛒 [Chrome Web Store](https://chromewebstore.google.com/detail/privacyshield/nklghhkmhkmckonncilnaohlihfacoee)
+* ▶️ [Demo Video](https://www.youtube.com/watch?v=VpYqkC-_UVg)
 * 𝕏 [Twitter/X](https://x.com/PIIBlocker)
 * 💼 [LinkedIn](https://www.linkedin.com/company/piiblock)
 * 📧 [Support](mailto:support@piiblock.com) — support@piiblock.com
